@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #24252a;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 45px;
+    background: #8C52FF;
+    width: 500px;
+}
+section h2{
+    color: white;
+    font-size: 2.5rem;
+    margin: 2rem;
+}
+section form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+form label{
+    color: white;
+    font-size: 17px;
+    margin-bottom: 4px;
+}
+form input{
+    padding: 15px;
+    outline: none;
+    border: 0;
+    margin-bottom: 20px;
+    font-size: 15px;
+    transition: all 0.5s;
+}
+form input:focus{
+    border-radius: 15px;
+}
+form textarea{
+    padding: 10px;
+    outline: none;
+    border: 0;
+    font-size: 15px;
+    margin-bottom: 30px;
+    transition: all 0.5s;
+}
+form textarea:focus{
+    border-radius: 16px;
+}
+form button{
+    padding: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    border: none;
+    transition: all 0.1s;
+    margin-bottom: 20px;
+}
+button{
+    padding: 15px 90px;
+    cursor: pointer;
+    font-size: 16px;
+    border: none;
+    transition: all 0.1s;
+    margin-bottom: 20px;
+}
+
+/* Outro parte */
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    flex-direction: column;
+
+}
+.tit{
+    font-size: 45px;
+    color: white;
+    margin-bottom: 30px;
+}
+.fra{
+    color: white;
+    margin-bottom: 50px;
+}
+.btn{
+    padding: 15px 55px;
+    background-color: #8C52FF;
+    color: white;
+    font-size: 18px;
+    transition: all 0.5s;
+    border: none;
+}
+.btn:hover{
+    border-radius: 16px;
+}
